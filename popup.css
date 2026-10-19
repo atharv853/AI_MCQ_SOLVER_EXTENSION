@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 16px;
+  width: 250px;
+  font-family: 'Inter', system-ui, sans-serif;
+  background: #f8fafc;
+  color: #0f172a;
+}
+
+.hdr {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.hdr-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #1e1b4b;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#btnSolveQuiz {
+  background: #6366f1;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.2s;
+  width: 100%;
+}
+
+#btnSolveQuiz:hover {
+  background: #4f46e5;
+}
+
+.status-container {
+  text-align: center;
+  font-size: 13px;
+  color: #475569;
+  font-weight: 500;
+}
+
+#statusText {
+  color: #10b981;
+  font-weight: 700;
+}
